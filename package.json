@@ -1,0 +1,29 @@
+{
+  "name": "i8.ae",
+  "version": "1.0.1",
+  "description": "NPM package that makes your link shorter using i8.ae API",
+  "main": "index.js",
+  "keywords": [
+    "i8.ae-api",
+    "shortURL",
+    "shortener",
+    "short",
+    "i8.ae"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdooo9/i8.ae.git"
+  },
+  "author": "abdooo9",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdooo9/i8.ae/issues"
+  },
+  "homepage": "https://github.com/abdooo9/i8.ae#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
