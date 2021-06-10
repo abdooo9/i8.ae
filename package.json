@@ -1,6 +1,6 @@
 {
   "name": "i8.ae",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NPM package that makes your link shorter using i8.ae API",
   "main": "index.js",
   "keywords": [
