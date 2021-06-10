@@ -8,7 +8,7 @@
 
 * NPM package that makes your link shorter using i8.ae API
 
-# Installation from [NPM](https://www.npmjs.com/package/npm-searcher)
+# Installation from [NPM](https://www.npmjs.com/package/i8.ae)
 
 ```
 npm i i8.ae
