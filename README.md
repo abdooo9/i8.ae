@@ -1,8 +1,8 @@
 # i8.ae
 
 <center>
-	<a href="https://nodei.co/npm/i8-ae/">
-		<img alt="npm-searcher package" src="https://nodei.co/npm/i8-ae.png">
+	<a href="https://nodei.co/npm/i8.ae/">
+		<img alt="npm-searcher package" src="https://nodei.co/npm/i8.ae.png">
 	</a>
 </center>
 
