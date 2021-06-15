@@ -8,18 +8,6 @@ class i8 {
     }
 
     async short(url) {
-        function isURL(str) {
-            const pattern = new RegExp('^(https?:\\/\\/)?' +
-                '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' +
-                '((\\d{1,3}\\.){3}\\d{1,3}))' +
-                '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' +
-                '(\\?[;&a-z\\d%_.~+=-]*)?' +
-                '(\\#[-a-z\\d_]*)?$', 'i');
-            return !!pattern.test(str);
-        }
-        const isURLL = isURL(url)
-        if (isURLL === false) throw new Error(`i8.ae Error: Please enter a valid URL address`);
-
         let data = await fetch(`https://i8.ae/api/url/add`, {
             method: 'POST',
             body: JSON.stringify({
@@ -38,18 +26,6 @@ class i8 {
     }
 
     async secure(url, pass) {
-        function isURL(str) {
-            const pattern = new RegExp('^(https?:\\/\\/)?' +
-                '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' +
-                '((\\d{1,3}\\.){3}\\d{1,3}))' +
-                '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' +
-                '(\\?[;&a-z\\d%_.~+=-]*)?' +
-                '(\\#[-a-z\\d_]*)?$', 'i');
-            return !!pattern.test(str);
-        }
-        const isURLL = isURL(url)
-        if (isURLL === false) throw new Error(`i8.ae Error: Please enter a valid URL address`);
-
         if (!pass) throw new Error(`i8.ae Error: no password key has been entered`);
         let data = await fetch(`https://i8.ae/api/url/add`, {
             method: 'POST',
