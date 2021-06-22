@@ -34,17 +34,25 @@ i8.secure('https://www.google.com/','test').then(res => {
 })
 ```
 
-### (Validation)
+### (Using async function)
 
 ```js
 const api = require('i8.ae')
 const i8 = new api("Your_i8.ae_API_Key") // You can get it from (https://i8.ae/user/tools/api)
 
-const res = i8.short('https://www.google.com/')
-console.log(res) // https://i8.ae/Kz1oi
+// Short link
+async function shorter() {
+    const res = await i8.short('https://www.google.com/')
+    console.log(res) // https://i8.ae/Kz1oi
+};
+shorter();
 
-const res = i8.secure('https://www.google.com/','test')
-console.log(res) // https://i8.ae/c5ibj With password "test"
+// Short link with password
+async function secure_shorter() {
+    const res = await i8.secure('https://www.google.com/', 'test')
+    console.log(res) // https://i8.ae/c5ibj With password "test"
+};
+secure_shorter();
 
 ```
 #### Contributing
