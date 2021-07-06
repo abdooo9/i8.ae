@@ -85,7 +85,7 @@ secure_shorter();
 
 ## Links 
 - [Website](https://I8.ae/)
-- [NPM](https://www.npmjs.com/package/I8.ae) 
+- [NPM](https://www.npmjs.com/package/i8.ae) 
 - [GitHub](https://github.com/abdooo9/i8.ae) 
 
 #### Contributing
